@@ -1,10 +1,8 @@
 function myFunction(myParameter) {
     if (myParameter) {
-        myParameter = "My parameter is true!";
-        return myParameter;
+        return "My parameter is true!";  
     }
-    myParameter = "My parameter is false!";
-    return myParameter;
+    return "My parameter is false!";
 }
 console.log(myFunction(true));
 console.log(myFunction(false));
